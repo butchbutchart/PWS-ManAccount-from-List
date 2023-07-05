@@ -5,4 +5,4 @@ uses the psrun2 client, so make sure you have that avaialable /added to your pat
 Will use the listsystems command to work out the Managaed System ID needed for the create managed account command
 Cross references the csv so that it only writes to systems listed there and with the account listed in the same row.
 
-passwords all set to 'blank' 
+

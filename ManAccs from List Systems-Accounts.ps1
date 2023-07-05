@@ -24,6 +24,6 @@ foreach ($row in $inputData) {
         # Run the command for matching entries
         $ManagedSystemID = $matchedEntry.ManagedSystemID
         $AccountName = $row.AccountName
-        .\psrun2 -i $url $apikey $apiuser post "ManagedSystems/$ManagedSystemID/ManagedAccounts" "AccountName=$AccountName" "Password=blank"
+        .\psrun2 -i $url $apikey $apiuser post "ManagedSystems/$ManagedSystemID/ManagedAccounts" "AccountName=$AccountName"
     }
 }
